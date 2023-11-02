@@ -3,11 +3,11 @@ function range(start, end){
 
 	if(start <= end)
 	{
-		let result = [];
-		for(let i=start; i<=end; i++)
+		let result = [];  
+		for(let i=start+1; i<end; i++)
 			{
 				result.push(i);
-           }
+           } 
 		return result;
 	}
 	else
